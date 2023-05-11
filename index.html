@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiha Win</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Thiha Win</a>
+        <div class="menu">
+            <span class="bar1"></span>
+            <span class="bar2"></span>
+            <span class="bar3"</span>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Place</a></li>
+            <li class="loginClick"><a href="#">Login</a></li>
+        </ul>
+    </header>
+    <section class="loginForm">
+        <div class="login">
+            <i class='bx bx-window-close'></i>
+            <div class="head">
+                <h1>Login</h1>
+                <p>Please Complete Login Form</p>
+            </div>
+            <form action="">
+                <div class="text">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="Enter Your Name">
+                </div>
+                <div class="email">
+                    <label for="">Email</label>
+                    <input type="email" placeholder="Enter Your email">
+                </div>
+                <div class="password">
+                    <label for="">Password</label>
+                    <input type="password" placeholder="Enter Your password">
+                </div>
+                <div class="checkBox">
+                   <div><input type="checkbox">Rember Your Password?</div>
+                   <a href="#">Signin</a> 
+                </div>
+                <div class="loginWith">
+                    <a href="#">Login With FaceBook</a>
+                    <a href="#">Login With Google</a>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="home">
+        <div class="text">
+            <h1>I am<span class="typeScript">Thiha Win</span></h1>
+            <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt commodi minima dignissimos voluptates delectus obcaecati accusamus, tempore rerum doloremque quae. Hic, quo reiciendis vero tenetur modi maiores laboriosam eligendi est!</p>
+            <a href="#">Click me</a>
+        </div>
+        <div class="logocontainer">
+            <img src="a.jpg" alt="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <ul>
+            <li class="active" data-flter="a"><a href="#Event">Event</a></li>
+            <li data-flter="b"><a href="#Event">Event</a>List</li>
+            <li data-flter="c"><a href="#Event">Event</a>yer</li>
+            <li data-flter="d"><a href="#Event">Event</a>lete</li>
+            <li data-flter="e"><a href="#Event">Event</a></li>
+            <li data-flter="f"><a href="#Event">Event</a></li>
+            <li data-flter="g"><a href="#Event">Event</a></li>
+            <li data-flter="h"><a href="#Event">Event</a></li>
+        </ul>
+        <div class="container1 div" data-item="a" id="Event">
+            <h1>Event Item</h1>
+            <p class="imgae">
+                <img src="aa.jpg" alt="" class="imageSmall"/>
+            </p>
+            <button class="clickButton">Click</button>
+        </div>
+        <div class="container2 div" data-item="b">
+            <h1>Music Player</h1>
+            <div class="playList"></div>
+            <audio src="1.mp3"></audio>
+            <div class="showDuration">00:00 / 00:00</div>
+            <div class="progressBar">
+                <div class="currentBar"></div>
+            </div>
+            <div class="iconContainer">
+                <i class='bx bx-skip-previous-circle previous' ></i>
+                <i class='bx bx-play-circle play'></i>
+                <i class='bx bx-pause-circle pause'></i>
+                <i class='bx bx-skip-next-circle next' ></i>
+            </div>
+        </div>
+        <div class="container3 div" data-item="c">
+            <h1 style="text-align: center;">ShoppingList</h1>
+            <div class="shoppingList">
+                <div class="container">
+                    <input type="text" placeholder="Enter List" class="inputTag">
+                    <div class="list"></div>
+                </div>
+                
+            </div>
+            
+
+        </div>
+        <div class="container4 div" data-item="d">
+            
+            <div class="stopWatch">
+                <h1>StopWatch</h1>
+                <div class="update">00:00:00</div>
+                <button class="btn start">start</button>
+                <button class="btn pau_se">Pause</button>
+                <button class="btn continue">Continue</button>
+                <button class="btn restart">Restart</button>
+            </div>
+        </div>
+        <div class="container5 div" data-item="e">
+        </div>
+        <div class="container6 div" data-item="f">
+        </div>
+        <div class="container7 div" data-item="g">
+        </div>
+        <div class="container8 div" data-item="h">
+        </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
